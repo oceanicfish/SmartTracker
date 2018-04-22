@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440033D41C88467F0043C719 /* TKOLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 440033D31C88467F0043C719 /* TKOLocation.m */; };
+		44134BEF1C5F466100B9A75B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44134BEE1C5F466100B9A75B /* main.m */; };
+		44134BF21C5F466100B9A75B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44134BF11C5F466100B9A75B /* AppDelegate.m */; };
+		44134BF51C5F466100B9A75B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44134BF41C5F466100B9A75B /* ViewController.m */; };
+		44134BF81C5F466100B9A75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44134BF61C5F466100B9A75B /* Main.storyboard */; };
+		44134BFB1C5F466100B9A75B /* Trakio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44134BF91C5F466100B9A75B /* Trakio.xcdatamodeld */; };
+		44134BFD1C5F466100B9A75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44134BFC1C5F466100B9A75B /* Assets.xcassets */; };
+		44134C001C5F466100B9A75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44134BFE1C5F466100B9A75B /* LaunchScreen.storyboard */; };
+		441AC1A71C8EBDE700755C3D /* TKONoteCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 441AC1A61C8EBDE700755C3D /* TKONoteCellView.m */; };
+		441AC1AA1C8EC11700755C3D /* TKONote.m in Sources */ = {isa = PBXBuildFile; fileRef = 441AC1A91C8EC11700755C3D /* TKONote.m */; };
+		44410C191C75CAA4009E07D0 /* TKOPerference.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C181C75CAA4009E07D0 /* TKOPerference.m */; };
+		44410C341C75CB70009E07D0 /* TKOWelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C1A1C75CB70009E07D0 /* TKOWelcomeView.m */; };
+		44410C351C75CB70009E07D0 /* TKOHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C1B1C75CB70009E07D0 /* TKOHomeView.m */; };
+		44410C371C75CB70009E07D0 /* TKOStartMyDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C211C75CB70009E07D0 /* TKOStartMyDayView.m */; };
+		44410C381C75CB70009E07D0 /* TKOHistoryTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C221C75CB70009E07D0 /* TKOHistoryTableView.m */; };
+		44410C3A1C75CB70009E07D0 /* TKOHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C251C75CB70009E07D0 /* TKOHistoryView.m */; };
+		44410C3B1C75CB70009E07D0 /* TKOHistoryCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C261C75CB70009E07D0 /* TKOHistoryCellView.m */; };
+		44410C3C1C75CB70009E07D0 /* TKOHistoryColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C271C75CB70009E07D0 /* TKOHistoryColumnView.m */; };
+		44410C3D1C75CB70009E07D0 /* TKOHistoryTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C281C75CB70009E07D0 /* TKOHistoryTitleView.m */; };
+		44410C3E1C75CB70009E07D0 /* TKOWeekdayInCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C291C75CB70009E07D0 /* TKOWeekdayInCellView.m */; };
+		44410C3F1C75CB70009E07D0 /* TKOTimeInCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C2E1C75CB70009E07D0 /* TKOTimeInCellView.m */; };
+		44410C401C75CB70009E07D0 /* TKOTodayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C321C75CB70009E07D0 /* TKOTodayView.m */; };
+		44410C451C75CD0B009E07D0 /* TKOJobBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C411C75CD0B009E07D0 /* TKOJobBlock.m */; };
+		44410C461C75CD0B009E07D0 /* TKOTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 44410C431C75CD0B009E07D0 /* TKOTopBar.m */; };
+		44410C4E1C75CDBF009E07D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C4A1C75CDBF009E07D0 /* Default-568h@2x.png */; };
+		44410C4F1C75CDBF009E07D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C4B1C75CDBF009E07D0 /* Default@2x.png */; };
+		44410C591C75CDD4009E07D0 /* 512X512.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C501C75CDD4009E07D0 /* 512X512.png */; };
+		44410C5A1C75CDD4009E07D0 /* 180X180.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C511C75CDD4009E07D0 /* 180X180.png */; };
+		44410C5B1C75CDD4009E07D0 /* 120X120.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C521C75CDD4009E07D0 /* 120X120.png */; };
+		44410C5C1C75CDD4009E07D0 /* 114X114.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C531C75CDD4009E07D0 /* 114X114.png */; };
+		44410C5D1C75CDD4009E07D0 /* 87X87.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C541C75CDD4009E07D0 /* 87X87.png */; };
+		44410C5E1C75CDD4009E07D0 /* 80X80.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C551C75CDD4009E07D0 /* 80X80.png */; };
+		44410C5F1C75CDD4009E07D0 /* 58X58.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C561C75CDD4009E07D0 /* 58X58.png */; };
+		44410C601C75CDD4009E07D0 /* 57X57.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C571C75CDD4009E07D0 /* 57X57.png */; };
+		44410C611C75CDD4009E07D0 /* 29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C581C75CDD4009E07D0 /* 29x29.png */; };
+		44410C671C75CDEB009E07D0 /* logo-login.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C621C75CDEB009E07D0 /* logo-login.png */; };
+		44410C681C75CDEB009E07D0 /* logo_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C631C75CDEB009E07D0 /* logo_banner.png */; };
+		44410C691C75CDEB009E07D0 /* logo-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C641C75CDEB009E07D0 /* logo-banner.png */; };
+		44410C6B1C75CDEB009E07D0 /* aperture_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 44410C661C75CDEB009E07D0 /* aperture_32x32.png */; };
+		444871011C8D264500C0AD51 /* TKOEmployeeShift.m in Sources */ = {isa = PBXBuildFile; fileRef = 444871001C8D264500C0AD51 /* TKOEmployeeShift.m */; };
+		444871041C8D48AA00C0AD51 /* TKOTodo.m in Sources */ = {isa = PBXBuildFile; fileRef = 444871031C8D48AA00C0AD51 /* TKOTodo.m */; };
+		444871071C8D5AC800C0AD51 /* TKOTodoCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 444871061C8D5AC800C0AD51 /* TKOTodoCellView.m */; };
+		4448710A1C8D834200C0AD51 /* TKOTodoEditorCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 444871091C8D834200C0AD51 /* TKOTodoEditorCellView.m */; };
+		445CCE921CD0647A0088D33F /* TKOHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 445CCE911CD0647A0088D33F /* TKOHistory.m */; };
+		4460EA2E1C7C3C4400B56166 /* TKOLoginFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4460EA2D1C7C3C4400B56166 /* TKOLoginFormView.m */; };
+		4472806E1C604F6000FDCA61 /* TKOSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4472806D1C604F6000FDCA61 /* TKOSystem.m */; };
+		447A54D01C896A7C00257F6A /* TKOLocationCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 447A54CF1C896A7C00257F6A /* TKOLocationCellView.m */; };
+		449057ED1C61EAD900BDF855 /* TKOLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 449057EC1C61EAD900BDF855 /* TKOLocationView.m */; };
+		449057F11C61EB2F00BDF855 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449057F01C61EB2F00BDF855 /* MapKit.framework */; };
+		449057F41C61EC8A00BDF855 /* TKOMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 449057F31C61EC8A00BDF855 /* TKOMapView.m */; };
+		449057F71C61F01900BDF855 /* TKOLocationListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 449057F61C61F01900BDF855 /* TKOLocationListView.m */; };
+		449057FA1C62034900BDF855 /* TKOLocationIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 449057F91C62034900BDF855 /* TKOLocationIndexView.m */; };
+		4499A9B41C6324A100508DA6 /* TKOTodoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4499A9B31C6324A100508DA6 /* TKOTodoView.m */; };
+		4499A9B91C6330F200508DA6 /* TKOTodoListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4499A9B81C6330F200508DA6 /* TKOTodoListView.m */; };
+		4499A9C01C63360A00508DA6 /* TKOCheckInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4499A9BF1C63360A00508DA6 /* TKOCheckInView.m */; };
+		44ACCDDC1C747B0600558642 /* TKOLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ACCDDB1C747B0600558642 /* TKOLoginView.m */; };
+		44B90DC21C6451F000AF644D /* TKONoteEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B90DC11C6451F000AF644D /* TKONoteEditorView.m */; };
+		44B90DC51C647D6700AF644D /* TKOTodoEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B90DC41C647D6700AF644D /* TKOTodoEditorView.m */; };
+		44B90DC81C647FE200AF644D /* TKOTodoListEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B90DC71C647FE200AF644D /* TKOTodoListEditorView.m */; };
+		44B90DCB1C64966400AF644D /* TKONoteListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B90DCA1C64966400AF644D /* TKONoteListView.m */; };
+		44B90DCE1C64981800AF644D /* TKONoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B90DCD1C64981800AF644D /* TKONoteView.m */; };
+		44BD64931C7DA0ED00F317EC /* Default-736h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BD64911C7DA0ED00F317EC /* Default-736h@2x.png */; };
+		44BD64941C7DA0ED00F317EC /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BD64921C7DA0ED00F317EC /* Default-667h@2x.png */; };
+		44D694CF1C5F57A500A33420 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694B91C5F4AE000A33420 /* fontawesome-webfont.ttf */; };
+		44D694D01C5F57A500A33420 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694BA1C5F4AE000A33420 /* Montserrat-Bold.ttf */; };
+		44D694D11C5F57A500A33420 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694BB1C5F4AE000A33420 /* Montserrat-Regular.ttf */; };
+		44D694D21C5F57A500A33420 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694BC1C5F4AE000A33420 /* OpenSans-Bold.ttf */; };
+		44D694D31C5F57A500A33420 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694BD1C5F4AE000A33420 /* OpenSans-BoldItalic.ttf */; };
+		44D694D41C5F57A500A33420 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694BE1C5F4AE000A33420 /* OpenSans-ExtraBold.ttf */; };
+		44D694D51C5F57A500A33420 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694BF1C5F4AE000A33420 /* OpenSans-ExtraBoldItalic.ttf */; };
+		44D694D61C5F57A500A33420 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694C01C5F4AE000A33420 /* OpenSans-Italic.ttf */; };
+		44D694D71C5F57A500A33420 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694C11C5F4AE000A33420 /* OpenSans-Light.ttf */; };
+		44D694D81C5F57A500A33420 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694C21C5F4AE000A33420 /* OpenSans-LightItalic.ttf */; };
+		44D694D91C5F57A500A33420 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694C31C5F4AE000A33420 /* OpenSans-Regular.ttf */; };
+		44D694DA1C5F57A500A33420 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694C41C5F4AE000A33420 /* OpenSans-Semibold.ttf */; };
+		44D694DB1C5F57A500A33420 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44D694C51C5F4AE000A33420 /* OpenSans-SemiboldItalic.ttf */; };
+		44D694F41C5F6CBA00A33420 /* TKOEmployeeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D694F31C5F6CBA00A33420 /* TKOEmployeeService.m */; };
+		44D694F71C5F6CDE00A33420 /* TKOEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D694F61C5F6CDE00A33420 /* TKOEmployee.m */; };
+		44EA1A6A1C843ED60099A8F5 /* img-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EA1A691C843ED60099A8F5 /* img-user.png */; };
+		44EA516B1C634FC90098D51A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449057EE1C61EB2700BDF855 /* CoreLocation.framework */; };
+		44EC71A11C68338500E9E4E4 /* TKODevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EC71A01C68338500E9E4E4 /* TKODevice.m */; };
+		94EA04A6668666F1FFBED270 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D68334C23AD7184FE93D1AE4 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		440033D21C88467F0043C719 /* TKOLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOLocation.h; path = model/TKOLocation.h; sourceTree = "<group>"; };
+		440033D31C88467F0043C719 /* TKOLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOLocation.m; path = model/TKOLocation.m; sourceTree = "<group>"; };
+		44134BEA1C5F466100B9A75B /* Trakio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trakio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44134BEE1C5F466100B9A75B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44134BF01C5F466100B9A75B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44134BF11C5F466100B9A75B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44134BF31C5F466100B9A75B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44134BF41C5F466100B9A75B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44134BF71C5F466100B9A75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44134BFA1C5F466100B9A75B /* Trakio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trakio.xcdatamodel; sourceTree = "<group>"; };
+		44134BFC1C5F466100B9A75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44134BFF1C5F466100B9A75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44134C011C5F466100B9A75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441AC1A51C8EBDE700755C3D /* TKONoteCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKONoteCellView.h; path = view/note/TKONoteCellView.h; sourceTree = "<group>"; };
+		441AC1A61C8EBDE700755C3D /* TKONoteCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKONoteCellView.m; path = view/note/TKONoteCellView.m; sourceTree = "<group>"; };
+		441AC1A81C8EC11700755C3D /* TKONote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKONote.h; path = model/TKONote.h; sourceTree = "<group>"; };
+		441AC1A91C8EC11700755C3D /* TKONote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKONote.m; path = model/TKONote.m; sourceTree = "<group>"; };
+		44410C171C75CAA4009E07D0 /* TKOPerference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOPerference.h; path = core/TKOPerference.h; sourceTree = "<group>"; };
+		44410C181C75CAA4009E07D0 /* TKOPerference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOPerference.m; path = core/TKOPerference.m; sourceTree = "<group>"; };
+		44410C1A1C75CB70009E07D0 /* TKOWelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOWelcomeView.m; path = view/home/TKOWelcomeView.m; sourceTree = "<group>"; };
+		44410C1B1C75CB70009E07D0 /* TKOHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOHomeView.m; path = view/home/TKOHomeView.m; sourceTree = "<group>"; };
+		44410C1C1C75CB70009E07D0 /* TKOHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOHomeView.h; path = view/home/TKOHomeView.h; sourceTree = "<group>"; };
+		44410C1F1C75CB70009E07D0 /* TKOWelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOWelcomeView.h; path = view/home/TKOWelcomeView.h; sourceTree = "<group>"; };
+		44410C201C75CB70009E07D0 /* TKOStartMyDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOStartMyDayView.h; path = view/home/TKOStartMyDayView.h; sourceTree = "<group>"; };
+		44410C211C75CB70009E07D0 /* TKOStartMyDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOStartMyDayView.m; path = view/home/TKOStartMyDayView.m; sourceTree = "<group>"; };
+		44410C221C75CB70009E07D0 /* TKOHistoryTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOHistoryTableView.m; path = view/home/TKOHistoryTableView.m; sourceTree = "<group>"; };
+		44410C241C75CB70009E07D0 /* TKOHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOHistoryView.h; path = view/home/TKOHistoryView.h; sourceTree = "<group>"; };
+		44410C251C75CB70009E07D0 /* TKOHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOHistoryView.m; path = view/home/TKOHistoryView.m; sourceTree = "<group>"; };
+		44410C261C75CB70009E07D0 /* TKOHistoryCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOHistoryCellView.m; path = view/home/TKOHistoryCellView.m; sourceTree = "<group>"; };
+		44410C271C75CB70009E07D0 /* TKOHistoryColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOHistoryColumnView.m; path = view/home/TKOHistoryColumnView.m; sourceTree = "<group>"; };
+		44410C281C75CB70009E07D0 /* TKOHistoryTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOHistoryTitleView.m; path = view/home/TKOHistoryTitleView.m; sourceTree = "<group>"; };
+		44410C291C75CB70009E07D0 /* TKOWeekdayInCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOWeekdayInCellView.m; path = view/home/TKOWeekdayInCellView.m; sourceTree = "<group>"; };
+		44410C2A1C75CB70009E07D0 /* TKOHistoryTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOHistoryTitleView.h; path = view/home/TKOHistoryTitleView.h; sourceTree = "<group>"; };
+		44410C2B1C75CB70009E07D0 /* TKOHistoryColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOHistoryColumnView.h; path = view/home/TKOHistoryColumnView.h; sourceTree = "<group>"; };
+		44410C2C1C75CB70009E07D0 /* TKOHistoryTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOHistoryTableView.h; path = view/home/TKOHistoryTableView.h; sourceTree = "<group>"; };
+		44410C2D1C75CB70009E07D0 /* TKOHistoryCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOHistoryCellView.h; path = view/home/TKOHistoryCellView.h; sourceTree = "<group>"; };
+		44410C2E1C75CB70009E07D0 /* TKOTimeInCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOTimeInCellView.m; path = view/home/TKOTimeInCellView.m; sourceTree = "<group>"; };
+		44410C2F1C75CB70009E07D0 /* TKOTimeInCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOTimeInCellView.h; path = view/home/TKOTimeInCellView.h; sourceTree = "<group>"; };
+		44410C301C75CB70009E07D0 /* TKOWeekdayInCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOWeekdayInCellView.h; path = view/home/TKOWeekdayInCellView.h; sourceTree = "<group>"; };
+		44410C321C75CB70009E07D0 /* TKOTodayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOTodayView.m; path = view/home/TKOTodayView.m; sourceTree = "<group>"; };
+		44410C331C75CB70009E07D0 /* TKOTodayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOTodayView.h; path = view/home/TKOTodayView.h; sourceTree = "<group>"; };
+		44410C411C75CD0B009E07D0 /* TKOJobBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOJobBlock.m; path = view/common/TKOJobBlock.m; sourceTree = "<group>"; };
+		44410C421C75CD0B009E07D0 /* TKOJobBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOJobBlock.h; path = view/common/TKOJobBlock.h; sourceTree = "<group>"; };
+		44410C431C75CD0B009E07D0 /* TKOTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOTopBar.m; path = view/common/TKOTopBar.m; sourceTree = "<group>"; };
+		44410C441C75CD0B009E07D0 /* TKOTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOTopBar.h; path = view/common/TKOTopBar.h; sourceTree = "<group>"; };
+		44410C4A1C75CDBF009E07D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "images/launchImages/Default-568h@2x.png"; sourceTree = "<group>"; };
+		44410C4B1C75CDBF009E07D0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "images/launchImages/Default@2x.png"; sourceTree = "<group>"; };
+		44410C501C75CDD4009E07D0 /* 512X512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 512X512.png; path = images/icons/512X512.png; sourceTree = "<group>"; };
+		44410C511C75CDD4009E07D0 /* 180X180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 180X180.png; path = images/icons/180X180.png; sourceTree = "<group>"; };
+		44410C521C75CDD4009E07D0 /* 120X120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 120X120.png; path = images/icons/120X120.png; sourceTree = "<group>"; };
+		44410C531C75CDD4009E07D0 /* 114X114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114X114.png; path = images/icons/114X114.png; sourceTree = "<group>"; };
+		44410C541C75CDD4009E07D0 /* 87X87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 87X87.png; path = images/icons/87X87.png; sourceTree = "<group>"; };
+		44410C551C75CDD4009E07D0 /* 80X80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 80X80.png; path = images/icons/80X80.png; sourceTree = "<group>"; };
+		44410C561C75CDD4009E07D0 /* 58X58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 58X58.png; path = images/icons/58X58.png; sourceTree = "<group>"; };
+		44410C571C75CDD4009E07D0 /* 57X57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57X57.png; path = images/icons/57X57.png; sourceTree = "<group>"; };
+		44410C581C75CDD4009E07D0 /* 29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 29x29.png; path = images/icons/29x29.png; sourceTree = "<group>"; };
+		44410C621C75CDEB009E07D0 /* logo-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-login.png"; path = "images/logo-login.png"; sourceTree = "<group>"; };
+		44410C631C75CDEB009E07D0 /* logo_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_banner.png; path = images/logo_banner.png; sourceTree = "<group>"; };
+		44410C641C75CDEB009E07D0 /* logo-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-banner.png"; path = "images/logo-banner.png"; sourceTree = "<group>"; };
+		44410C661C75CDEB009E07D0 /* aperture_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aperture_32x32.png; path = images/aperture_32x32.png; sourceTree = "<group>"; };
+		444870FF1C8D264500C0AD51 /* TKOEmployeeShift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOEmployeeShift.h; path = model/TKOEmployeeShift.h; sourceTree = "<group>"; };
+		444871001C8D264500C0AD51 /* TKOEmployeeShift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOEmployeeShift.m; path = model/TKOEmployeeShift.m; sourceTree = "<group>"; };
+		444871021C8D48AA00C0AD51 /* TKOTodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOTodo.h; path = model/TKOTodo.h; sourceTree = "<group>"; };
+		444871031C8D48AA00C0AD51 /* TKOTodo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOTodo.m; path = model/TKOTodo.m; sourceTree = "<group>"; };
+		444871051C8D5AC800C0AD51 /* TKOTodoCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOTodoCellView.h; path = view/todo/TKOTodoCellView.h; sourceTree = "<group>"; };
+		444871061C8D5AC800C0AD51 /* TKOTodoCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOTodoCellView.m; path = view/todo/TKOTodoCellView.m; sourceTree = "<group>"; };
+		444871081C8D834200C0AD51 /* TKOTodoEditorCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOTodoEditorCellView.h; path = view/todo/TKOTodoEditorCellView.h; sourceTree = "<group>"; };
+		444871091C8D834200C0AD51 /* TKOTodoEditorCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOTodoEditorCellView.m; path = view/todo/TKOTodoEditorCellView.m; sourceTree = "<group>"; };
+		445CCE901CD0647A0088D33F /* TKOHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOHistory.h; path = model/TKOHistory.h; sourceTree = "<group>"; };
+		445CCE911CD0647A0088D33F /* TKOHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOHistory.m; path = model/TKOHistory.m; sourceTree = "<group>"; };
+		4460EA2C1C7C3C4400B56166 /* TKOLoginFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOLoginFormView.h; path = view/login/TKOLoginFormView.h; sourceTree = "<group>"; };
+		4460EA2D1C7C3C4400B56166 /* TKOLoginFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOLoginFormView.m; path = view/login/TKOLoginFormView.m; sourceTree = "<group>"; };
+		4472806C1C604F6000FDCA61 /* TKOSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOSystem.h; path = core/TKOSystem.h; sourceTree = "<group>"; };
+		4472806D1C604F6000FDCA61 /* TKOSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOSystem.m; path = core/TKOSystem.m; sourceTree = "<group>"; };
+		447A54CE1C896A7C00257F6A /* TKOLocationCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOLocationCellView.h; path = view/location/TKOLocationCellView.h; sourceTree = "<group>"; };
+		447A54CF1C896A7C00257F6A /* TKOLocationCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOLocationCellView.m; path = view/location/TKOLocationCellView.m; sourceTree = "<group>"; };
+		449057EB1C61EAD900BDF855 /* TKOLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOLocationView.h; path = view/location/TKOLocationView.h; sourceTree = "<group>"; };
+		449057EC1C61EAD900BDF855 /* TKOLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOLocationView.m; path = view/location/TKOLocationView.m; sourceTree = "<group>"; };
+		449057EE1C61EB2700BDF855 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		449057F01C61EB2F00BDF855 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		449057F21C61EC8A00BDF855 /* TKOMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOMapView.h; path = view/location/TKOMapView.h; sourceTree = "<group>"; };
+		449057F31C61EC8A00BDF855 /* TKOMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOMapView.m; path = view/location/TKOMapView.m; sourceTree = "<group>"; };
+		449057F51C61F01900BDF855 /* TKOLocationListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOLocationListView.h; path = view/location/TKOLocationListView.h; sourceTree = "<group>"; };
+		449057F61C61F01900BDF855 /* TKOLocationListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOLocationListView.m; path = view/location/TKOLocationListView.m; sourceTree = "<group>"; };
+		449057F81C62034900BDF855 /* TKOLocationIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOLocationIndexView.h; path = view/location/TKOLocationIndexView.h; sourceTree = "<group>"; };
+		449057F91C62034900BDF855 /* TKOLocationIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOLocationIndexView.m; path = view/location/TKOLocationIndexView.m; sourceTree = "<group>"; };
+		4499A9B21C6324A100508DA6 /* TKOTodoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOTodoView.h; path = view/todo/TKOTodoView.h; sourceTree = "<group>"; };
+		4499A9B31C6324A100508DA6 /* TKOTodoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOTodoView.m; path = view/todo/TKOTodoView.m; sourceTree = "<group>"; };
+		4499A9B71C6330F200508DA6 /* TKOTodoListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOTodoListView.h; path = view/todo/TKOTodoListView.h; sourceTree = "<group>"; };
+		4499A9B81C6330F200508DA6 /* TKOTodoListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOTodoListView.m; path = view/todo/TKOTodoListView.m; sourceTree = "<group>"; };
+		4499A9BE1C63360A00508DA6 /* TKOCheckInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOCheckInView.h; path = view/checkin/TKOCheckInView.h; sourceTree = "<group>"; };
+		4499A9BF1C63360A00508DA6 /* TKOCheckInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOCheckInView.m; path = view/checkin/TKOCheckInView.m; sourceTree = "<group>"; };
+		44ACCDDA1C747B0600558642 /* TKOLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOLoginView.h; path = view/login/TKOLoginView.h; sourceTree = "<group>"; };
+		44ACCDDB1C747B0600558642 /* TKOLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOLoginView.m; path = view/login/TKOLoginView.m; sourceTree = "<group>"; };
+		44B90DC01C6451F000AF644D /* TKONoteEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKONoteEditorView.h; path = view/note/TKONoteEditorView.h; sourceTree = "<group>"; };
+		44B90DC11C6451F000AF644D /* TKONoteEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKONoteEditorView.m; path = view/note/TKONoteEditorView.m; sourceTree = "<group>"; };
+		44B90DC31C647D6700AF644D /* TKOTodoEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOTodoEditorView.h; path = view/todo/TKOTodoEditorView.h; sourceTree = "<group>"; };
+		44B90DC41C647D6700AF644D /* TKOTodoEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOTodoEditorView.m; path = view/todo/TKOTodoEditorView.m; sourceTree = "<group>"; };
+		44B90DC61C647FE200AF644D /* TKOTodoListEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOTodoListEditorView.h; path = view/todo/TKOTodoListEditorView.h; sourceTree = "<group>"; };
+		44B90DC71C647FE200AF644D /* TKOTodoListEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOTodoListEditorView.m; path = view/todo/TKOTodoListEditorView.m; sourceTree = "<group>"; };
+		44B90DC91C64966400AF644D /* TKONoteListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKONoteListView.h; path = view/note/TKONoteListView.h; sourceTree = "<group>"; };
+		44B90DCA1C64966400AF644D /* TKONoteListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKONoteListView.m; path = view/note/TKONoteListView.m; sourceTree = "<group>"; };
+		44B90DCC1C64981800AF644D /* TKONoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKONoteView.h; path = view/note/TKONoteView.h; sourceTree = "<group>"; };
+		44B90DCD1C64981800AF644D /* TKONoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKONoteView.m; path = view/note/TKONoteView.m; sourceTree = "<group>"; };
+		44BD64911C7DA0ED00F317EC /* Default-736h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-736h@2x.png"; path = "images/launchImages/Default-736h@2x.png"; sourceTree = "<group>"; };
+		44BD64921C7DA0ED00F317EC /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "images/launchImages/Default-667h@2x.png"; sourceTree = "<group>"; };
+		44D694B91C5F4AE000A33420 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fontawesome-webfont.ttf"; path = "resources/font/fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		44D694BA1C5F4AE000A33420 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "resources/font/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		44D694BB1C5F4AE000A33420 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "resources/font/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		44D694BC1C5F4AE000A33420 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "resources/font/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		44D694BD1C5F4AE000A33420 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-BoldItalic.ttf"; path = "resources/font/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		44D694BE1C5F4AE000A33420 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "resources/font/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		44D694BF1C5F4AE000A33420 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBoldItalic.ttf"; path = "resources/font/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		44D694C01C5F4AE000A33420 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Italic.ttf"; path = "resources/font/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		44D694C11C5F4AE000A33420 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "resources/font/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		44D694C21C5F4AE000A33420 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-LightItalic.ttf"; path = "resources/font/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		44D694C31C5F4AE000A33420 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "resources/font/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		44D694C41C5F4AE000A33420 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "resources/font/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		44D694C51C5F4AE000A33420 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiboldItalic.ttf"; path = "resources/font/OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		44D694F21C5F6CBA00A33420 /* TKOEmployeeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOEmployeeService.h; path = service/TKOEmployeeService.h; sourceTree = "<group>"; };
+		44D694F31C5F6CBA00A33420 /* TKOEmployeeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOEmployeeService.m; path = service/TKOEmployeeService.m; sourceTree = "<group>"; };
+		44D694F51C5F6CDE00A33420 /* TKOEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOEmployee.h; path = model/TKOEmployee.h; sourceTree = "<group>"; };
+		44D694F61C5F6CDE00A33420 /* TKOEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKOEmployee.m; path = model/TKOEmployee.m; sourceTree = "<group>"; };
+		44EA1A691C843ED60099A8F5 /* img-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-user.png"; sourceTree = "<group>"; };
+		44EC719F1C68338500E9E4E4 /* TKODevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKODevice.h; path = model/TKODevice.h; sourceTree = "<group>"; };
+		44EC71A01C68338500E9E4E4 /* TKODevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKODevice.m; path = model/TKODevice.m; sourceTree = "<group>"; };
+		5BAB087E3EE4035EE3A8C9BF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6937FEAF51ED982E7214D0CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D68334C23AD7184FE93D1AE4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44134BE71C5F466100B9A75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EA516B1C634FC90098D51A /* CoreLocation.framework in Frameworks */,
+				449057F11C61EB2F00BDF855 /* MapKit.framework in Frameworks */,
+				94EA04A6668666F1FFBED270 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44134BE11C5F466100B9A75B = {
+			isa = PBXGroup;
+			children = (
+				DF24039F8DB00FC650640E39 /* Frameworks */,
+				49F207090A052B7A89D651F5 /* Pods */,
+				44134BEB1C5F466100B9A75B /* Products */,
+				44134BEC1C5F466100B9A75B /* Trakio */,
+			);
+			sourceTree = "<group>";
+		};
+		44134BEB1C5F466100B9A75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44134BEA1C5F466100B9A75B /* Trakio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44134BEC1C5F466100B9A75B /* Trakio */ = {
+			isa = PBXGroup;
+			children = (
+				44D694B71C5F49C000A33420 /* view */,
+				44D694F11C5F6C8800A33420 /* model */,
+				44D694B81C5F49C800A33420 /* core */,
+				44D694B61C5F49B300A33420 /* service */,
+				44D694B41C5F48FD00A33420 /* resources */,
+				44134BF01C5F466100B9A75B /* AppDelegate.h */,
+				44134BF11C5F466100B9A75B /* AppDelegate.m */,
+				44134BF31C5F466100B9A75B /* ViewController.h */,
+				44134BF41C5F466100B9A75B /* ViewController.m */,
+				44134BF61C5F466100B9A75B /* Main.storyboard */,
+				44134BFC1C5F466100B9A75B /* Assets.xcassets */,
+				44134BFE1C5F466100B9A75B /* LaunchScreen.storyboard */,
+				44134C011C5F466100B9A75B /* Info.plist */,
+				44134BF91C5F466100B9A75B /* Trakio.xcdatamodeld */,
+				44134BED1C5F466100B9A75B /* Supporting Files */,
+			);
+			path = Trakio;
+			sourceTree = "<group>";
+		};
+		44134BED1C5F466100B9A75B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44134BEE1C5F466100B9A75B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44410C471C75CDAC009E07D0 /* launchImage */ = {
+			isa = PBXGroup;
+			children = (
+				44BD64911C7DA0ED00F317EC /* Default-736h@2x.png */,
+				44BD64921C7DA0ED00F317EC /* Default-667h@2x.png */,
+				44410C4A1C75CDBF009E07D0 /* Default-568h@2x.png */,
+				44410C4B1C75CDBF009E07D0 /* Default@2x.png */,
+			);
+			name = launchImage;
+			sourceTree = "<group>";
+		};
+		447280721C6088D300FDCA61 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				44410C2D1C75CB70009E07D0 /* TKOHistoryCellView.h */,
+				44410C261C75CB70009E07D0 /* TKOHistoryCellView.m */,
+				44410C2B1C75CB70009E07D0 /* TKOHistoryColumnView.h */,
+				44410C271C75CB70009E07D0 /* TKOHistoryColumnView.m */,
+				44410C2C1C75CB70009E07D0 /* TKOHistoryTableView.h */,
+				44410C221C75CB70009E07D0 /* TKOHistoryTableView.m */,
+				44410C2A1C75CB70009E07D0 /* TKOHistoryTitleView.h */,
+				44410C281C75CB70009E07D0 /* TKOHistoryTitleView.m */,
+				44410C241C75CB70009E07D0 /* TKOHistoryView.h */,
+				44410C251C75CB70009E07D0 /* TKOHistoryView.m */,
+				44410C1C1C75CB70009E07D0 /* TKOHomeView.h */,
+				44410C1B1C75CB70009E07D0 /* TKOHomeView.m */,
+				44410C201C75CB70009E07D0 /* TKOStartMyDayView.h */,
+				44410C211C75CB70009E07D0 /* TKOStartMyDayView.m */,
+				44410C2F1C75CB70009E07D0 /* TKOTimeInCellView.h */,
+				44410C2E1C75CB70009E07D0 /* TKOTimeInCellView.m */,
+				44410C331C75CB70009E07D0 /* TKOTodayView.h */,
+				44410C321C75CB70009E07D0 /* TKOTodayView.m */,
+				44410C301C75CB70009E07D0 /* TKOWeekdayInCellView.h */,
+				44410C291C75CB70009E07D0 /* TKOWeekdayInCellView.m */,
+				44410C1F1C75CB70009E07D0 /* TKOWelcomeView.h */,
+				44410C1A1C75CB70009E07D0 /* TKOWelcomeView.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		447280731C6088FA00FDCA61 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				44410C411C75CD0B009E07D0 /* TKOJobBlock.m */,
+				44410C421C75CD0B009E07D0 /* TKOJobBlock.h */,
+				44410C431C75CD0B009E07D0 /* TKOTopBar.m */,
+				44410C441C75CD0B009E07D0 /* TKOTopBar.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		449057EA1C61EA2500BDF855 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				449057EB1C61EAD900BDF855 /* TKOLocationView.h */,
+				449057EC1C61EAD900BDF855 /* TKOLocationView.m */,
+				449057F21C61EC8A00BDF855 /* TKOMapView.h */,
+				449057F31C61EC8A00BDF855 /* TKOMapView.m */,
+				449057F51C61F01900BDF855 /* TKOLocationListView.h */,
+				449057F61C61F01900BDF855 /* TKOLocationListView.m */,
+				449057F81C62034900BDF855 /* TKOLocationIndexView.h */,
+				449057F91C62034900BDF855 /* TKOLocationIndexView.m */,
+				447A54CE1C896A7C00257F6A /* TKOLocationCellView.h */,
+				447A54CF1C896A7C00257F6A /* TKOLocationCellView.m */,
+			);
+			name = location;
+			sourceTree = "<group>";
+		};
+		4499A9B61C6324FB00508DA6 /* todo */ = {
+			isa = PBXGroup;
+			children = (
+				4499A9B21C6324A100508DA6 /* TKOTodoView.h */,
+				4499A9B31C6324A100508DA6 /* TKOTodoView.m */,
+				4499A9B71C6330F200508DA6 /* TKOTodoListView.h */,
+				4499A9B81C6330F200508DA6 /* TKOTodoListView.m */,
+				44B90DC31C647D6700AF644D /* TKOTodoEditorView.h */,
+				44B90DC41C647D6700AF644D /* TKOTodoEditorView.m */,
+				44B90DC61C647FE200AF644D /* TKOTodoListEditorView.h */,
+				44B90DC71C647FE200AF644D /* TKOTodoListEditorView.m */,
+				444871051C8D5AC800C0AD51 /* TKOTodoCellView.h */,
+				444871061C8D5AC800C0AD51 /* TKOTodoCellView.m */,
+				444871081C8D834200C0AD51 /* TKOTodoEditorCellView.h */,
+				444871091C8D834200C0AD51 /* TKOTodoEditorCellView.m */,
+			);
+			name = todo;
+			sourceTree = "<group>";
+		};
+		4499A9BD1C6335E900508DA6 /* checkin */ = {
+			isa = PBXGroup;
+			children = (
+				4499A9BE1C63360A00508DA6 /* TKOCheckInView.h */,
+				4499A9BF1C63360A00508DA6 /* TKOCheckInView.m */,
+			);
+			name = checkin;
+			sourceTree = "<group>";
+		};
+		44ACCDD91C747ACF00558642 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				44ACCDDA1C747B0600558642 /* TKOLoginView.h */,
+				44ACCDDB1C747B0600558642 /* TKOLoginView.m */,
+				4460EA2C1C7C3C4400B56166 /* TKOLoginFormView.h */,
+				4460EA2D1C7C3C4400B56166 /* TKOLoginFormView.m */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		44B90DBF1C6451B000AF644D /* note */ = {
+			isa = PBXGroup;
+			children = (
+				44B90DC01C6451F000AF644D /* TKONoteEditorView.h */,
+				44B90DC11C6451F000AF644D /* TKONoteEditorView.m */,
+				44B90DC91C64966400AF644D /* TKONoteListView.h */,
+				44B90DCA1C64966400AF644D /* TKONoteListView.m */,
+				44B90DCC1C64981800AF644D /* TKONoteView.h */,
+				44B90DCD1C64981800AF644D /* TKONoteView.m */,
+				441AC1A51C8EBDE700755C3D /* TKONoteCellView.h */,
+				441AC1A61C8EBDE700755C3D /* TKONoteCellView.m */,
+			);
+			name = note;
+			sourceTree = "<group>";
+		};
+		44B9A1CD1C7573450030F09C /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				44410C501C75CDD4009E07D0 /* 512X512.png */,
+				44410C511C75CDD4009E07D0 /* 180X180.png */,
+				44410C521C75CDD4009E07D0 /* 120X120.png */,
+				44410C531C75CDD4009E07D0 /* 114X114.png */,
+				44410C541C75CDD4009E07D0 /* 87X87.png */,
+				44410C551C75CDD4009E07D0 /* 80X80.png */,
+				44410C561C75CDD4009E07D0 /* 58X58.png */,
+				44410C571C75CDD4009E07D0 /* 57X57.png */,
+				44410C581C75CDD4009E07D0 /* 29x29.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		44D694B41C5F48FD00A33420 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				44D694C71C5F4AF500A33420 /* sound */,
+				44D694C61C5F4AEC00A33420 /* image */,
+				44D694B51C5F490900A33420 /* fonts */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		44D694B51C5F490900A33420 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				44D694B91C5F4AE000A33420 /* fontawesome-webfont.ttf */,
+				44D694BA1C5F4AE000A33420 /* Montserrat-Bold.ttf */,
+				44D694BB1C5F4AE000A33420 /* Montserrat-Regular.ttf */,
+				44D694BC1C5F4AE000A33420 /* OpenSans-Bold.ttf */,
+				44D694BD1C5F4AE000A33420 /* OpenSans-BoldItalic.ttf */,
+				44D694BE1C5F4AE000A33420 /* OpenSans-ExtraBold.ttf */,
+				44D694BF1C5F4AE000A33420 /* OpenSans-ExtraBoldItalic.ttf */,
+				44D694C01C5F4AE000A33420 /* OpenSans-Italic.ttf */,
+				44D694C11C5F4AE000A33420 /* OpenSans-Light.ttf */,
+				44D694C21C5F4AE000A33420 /* OpenSans-LightItalic.ttf */,
+				44D694C31C5F4AE000A33420 /* OpenSans-Regular.ttf */,
+				44D694C41C5F4AE000A33420 /* OpenSans-Semibold.ttf */,
+				44D694C51C5F4AE000A33420 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		44D694B61C5F49B300A33420 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				44D694F21C5F6CBA00A33420 /* TKOEmployeeService.h */,
+				44D694F31C5F6CBA00A33420 /* TKOEmployeeService.m */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		44D694B71C5F49C000A33420 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				44ACCDD91C747ACF00558642 /* login */,
+				44B90DBF1C6451B000AF644D /* note */,
+				4499A9BD1C6335E900508DA6 /* checkin */,
+				4499A9B61C6324FB00508DA6 /* todo */,
+				449057EA1C61EA2500BDF855 /* location */,
+				447280731C6088FA00FDCA61 /* common */,
+				447280721C6088D300FDCA61 /* home */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		44D694B81C5F49C800A33420 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				4472806C1C604F6000FDCA61 /* TKOSystem.h */,
+				4472806D1C604F6000FDCA61 /* TKOSystem.m */,
+				44410C171C75CAA4009E07D0 /* TKOPerference.h */,
+				44410C181C75CAA4009E07D0 /* TKOPerference.m */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		44D694C61C5F4AEC00A33420 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				44EA1A691C843ED60099A8F5 /* img-user.png */,
+				44410C621C75CDEB009E07D0 /* logo-login.png */,
+				44410C631C75CDEB009E07D0 /* logo_banner.png */,
+				44410C641C75CDEB009E07D0 /* logo-banner.png */,
+				44410C661C75CDEB009E07D0 /* aperture_32x32.png */,
+				44410C471C75CDAC009E07D0 /* launchImage */,
+				44B9A1CD1C7573450030F09C /* icons */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		44D694C71C5F4AF500A33420 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
+		44D694F11C5F6C8800A33420 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				44D694F51C5F6CDE00A33420 /* TKOEmployee.h */,
+				44D694F61C5F6CDE00A33420 /* TKOEmployee.m */,
+				44EC719F1C68338500E9E4E4 /* TKODevice.h */,
+				44EC71A01C68338500E9E4E4 /* TKODevice.m */,
+				440033D21C88467F0043C719 /* TKOLocation.h */,
+				440033D31C88467F0043C719 /* TKOLocation.m */,
+				444870FF1C8D264500C0AD51 /* TKOEmployeeShift.h */,
+				444871001C8D264500C0AD51 /* TKOEmployeeShift.m */,
+				444871021C8D48AA00C0AD51 /* TKOTodo.h */,
+				444871031C8D48AA00C0AD51 /* TKOTodo.m */,
+				441AC1A81C8EC11700755C3D /* TKONote.h */,
+				441AC1A91C8EC11700755C3D /* TKONote.m */,
+				445CCE901CD0647A0088D33F /* TKOHistory.h */,
+				445CCE911CD0647A0088D33F /* TKOHistory.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		49F207090A052B7A89D651F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BAB087E3EE4035EE3A8C9BF /* Pods.debug.xcconfig */,
+				6937FEAF51ED982E7214D0CB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF24039F8DB00FC650640E39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				449057F01C61EB2F00BDF855 /* MapKit.framework */,
+				449057EE1C61EB2700BDF855 /* CoreLocation.framework */,
+				D68334C23AD7184FE93D1AE4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44134BE91C5F466100B9A75B /* Trakio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44134C041C5F466100B9A75B /* Build configuration list for PBXNativeTarget "Trakio" */;
+			buildPhases = (
+				46D82B987F482BC7E3085267 /* Check Pods Manifest.lock */,
+				44134BE61C5F466100B9A75B /* Sources */,
+				44134BE71C5F466100B9A75B /* Frameworks */,
+				44134BE81C5F466100B9A75B /* Resources */,
+				E916794F71FBD39554CCFCE9 /* Embed Pods Frameworks */,
+				69AB19890287B8A96945419D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trakio;
+			productName = Trakio;
+			productReference = 44134BEA1C5F466100B9A75B /* Trakio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44134BE21C5F466100B9A75B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.cb.trakio;
+				TargetAttributes = {
+					44134BE91C5F466100B9A75B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G882XP2TNR;
+					};
+				};
+			};
+			buildConfigurationList = 44134BE51C5F466100B9A75B /* Build configuration list for PBXProject "Trakio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44134BE11C5F466100B9A75B;
+			productRefGroup = 44134BEB1C5F466100B9A75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44134BE91C5F466100B9A75B /* Trakio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44134BE81C5F466100B9A75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D694CF1C5F57A500A33420 /* fontawesome-webfont.ttf in Resources */,
+				44D694D01C5F57A500A33420 /* Montserrat-Bold.ttf in Resources */,
+				44D694D11C5F57A500A33420 /* Montserrat-Regular.ttf in Resources */,
+				44410C601C75CDD4009E07D0 /* 57X57.png in Resources */,
+				44410C4E1C75CDBF009E07D0 /* Default-568h@2x.png in Resources */,
+				44410C591C75CDD4009E07D0 /* 512X512.png in Resources */,
+				44410C5A1C75CDD4009E07D0 /* 180X180.png in Resources */,
+				44D694D21C5F57A500A33420 /* OpenSans-Bold.ttf in Resources */,
+				44D694D31C5F57A500A33420 /* OpenSans-BoldItalic.ttf in Resources */,
+				44D694D41C5F57A500A33420 /* OpenSans-ExtraBold.ttf in Resources */,
+				44D694D51C5F57A500A33420 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				44410C5B1C75CDD4009E07D0 /* 120X120.png in Resources */,
+				44D694D61C5F57A500A33420 /* OpenSans-Italic.ttf in Resources */,
+				44D694D71C5F57A500A33420 /* OpenSans-Light.ttf in Resources */,
+				44D694D81C5F57A500A33420 /* OpenSans-LightItalic.ttf in Resources */,
+				44410C4F1C75CDBF009E07D0 /* Default@2x.png in Resources */,
+				44D694D91C5F57A500A33420 /* OpenSans-Regular.ttf in Resources */,
+				44410C5F1C75CDD4009E07D0 /* 58X58.png in Resources */,
+				44D694DA1C5F57A500A33420 /* OpenSans-Semibold.ttf in Resources */,
+				44410C5D1C75CDD4009E07D0 /* 87X87.png in Resources */,
+				44EA1A6A1C843ED60099A8F5 /* img-user.png in Resources */,
+				44410C5E1C75CDD4009E07D0 /* 80X80.png in Resources */,
+				44410C691C75CDEB009E07D0 /* logo-banner.png in Resources */,
+				44410C671C75CDEB009E07D0 /* logo-login.png in Resources */,
+				44D694DB1C5F57A500A33420 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				44134C001C5F466100B9A75B /* LaunchScreen.storyboard in Resources */,
+				44410C5C1C75CDD4009E07D0 /* 114X114.png in Resources */,
+				44410C6B1C75CDEB009E07D0 /* aperture_32x32.png in Resources */,
+				44134BFD1C5F466100B9A75B /* Assets.xcassets in Resources */,
+				44BD64941C7DA0ED00F317EC /* Default-667h@2x.png in Resources */,
+				44BD64931C7DA0ED00F317EC /* Default-736h@2x.png in Resources */,
+				44410C611C75CDD4009E07D0 /* 29x29.png in Resources */,
+				44134BF81C5F466100B9A75B /* Main.storyboard in Resources */,
+				44410C681C75CDEB009E07D0 /* logo_banner.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46D82B987F482BC7E3085267 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69AB19890287B8A96945419D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E916794F71FBD39554CCFCE9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44134BE61C5F466100B9A75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444871041C8D48AA00C0AD51 /* TKOTodo.m in Sources */,
+				44410C461C75CD0B009E07D0 /* TKOTopBar.m in Sources */,
+				44410C3A1C75CB70009E07D0 /* TKOHistoryView.m in Sources */,
+				44B90DCB1C64966400AF644D /* TKONoteListView.m in Sources */,
+				441AC1AA1C8EC11700755C3D /* TKONote.m in Sources */,
+				449057F41C61EC8A00BDF855 /* TKOMapView.m in Sources */,
+				44410C401C75CB70009E07D0 /* TKOTodayView.m in Sources */,
+				440033D41C88467F0043C719 /* TKOLocation.m in Sources */,
+				44410C191C75CAA4009E07D0 /* TKOPerference.m in Sources */,
+				449057F71C61F01900BDF855 /* TKOLocationListView.m in Sources */,
+				44410C451C75CD0B009E07D0 /* TKOJobBlock.m in Sources */,
+				4499A9B91C6330F200508DA6 /* TKOTodoListView.m in Sources */,
+				44134BF51C5F466100B9A75B /* ViewController.m in Sources */,
+				44410C3F1C75CB70009E07D0 /* TKOTimeInCellView.m in Sources */,
+				44B90DCE1C64981800AF644D /* TKONoteView.m in Sources */,
+				44410C3D1C75CB70009E07D0 /* TKOHistoryTitleView.m in Sources */,
+				4499A9C01C63360A00508DA6 /* TKOCheckInView.m in Sources */,
+				445CCE921CD0647A0088D33F /* TKOHistory.m in Sources */,
+				44410C3E1C75CB70009E07D0 /* TKOWeekdayInCellView.m in Sources */,
+				4460EA2E1C7C3C4400B56166 /* TKOLoginFormView.m in Sources */,
+				44410C341C75CB70009E07D0 /* TKOWelcomeView.m in Sources */,
+				44ACCDDC1C747B0600558642 /* TKOLoginView.m in Sources */,
+				4472806E1C604F6000FDCA61 /* TKOSystem.m in Sources */,
+				44134BFB1C5F466100B9A75B /* Trakio.xcdatamodeld in Sources */,
+				44B90DC81C647FE200AF644D /* TKOTodoListEditorView.m in Sources */,
+				449057FA1C62034900BDF855 /* TKOLocationIndexView.m in Sources */,
+				44EC71A11C68338500E9E4E4 /* TKODevice.m in Sources */,
+				444871011C8D264500C0AD51 /* TKOEmployeeShift.m in Sources */,
+				44410C3C1C75CB70009E07D0 /* TKOHistoryColumnView.m in Sources */,
+				449057ED1C61EAD900BDF855 /* TKOLocationView.m in Sources */,
+				44B90DC51C647D6700AF644D /* TKOTodoEditorView.m in Sources */,
+				44410C381C75CB70009E07D0 /* TKOHistoryTableView.m in Sources */,
+				4448710A1C8D834200C0AD51 /* TKOTodoEditorCellView.m in Sources */,
+				441AC1A71C8EBDE700755C3D /* TKONoteCellView.m in Sources */,
+				44134BF21C5F466100B9A75B /* AppDelegate.m in Sources */,
+				44B90DC21C6451F000AF644D /* TKONoteEditorView.m in Sources */,
+				447A54D01C896A7C00257F6A /* TKOLocationCellView.m in Sources */,
+				444871071C8D5AC800C0AD51 /* TKOTodoCellView.m in Sources */,
+				44D694F41C5F6CBA00A33420 /* TKOEmployeeService.m in Sources */,
+				44134BEF1C5F466100B9A75B /* main.m in Sources */,
+				44410C3B1C75CB70009E07D0 /* TKOHistoryCellView.m in Sources */,
+				44D694F71C5F6CDE00A33420 /* TKOEmployee.m in Sources */,
+				44410C371C75CB70009E07D0 /* TKOStartMyDayView.m in Sources */,
+				44410C351C75CB70009E07D0 /* TKOHomeView.m in Sources */,
+				4499A9B41C6324A100508DA6 /* TKOTodoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44134BF61C5F466100B9A75B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44134BF71C5F466100B9A75B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44134BFE1C5F466100B9A75B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44134BFF1C5F466100B9A75B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44134C021C5F466100B9A75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44134C031C5F466100B9A75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44134C051C5F466100B9A75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAB087E3EE4035EE3A8C9BF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G882XP2TNR;
+				INFOPLIST_FILE = Trakio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vstudio.tracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		44134C061C5F466100B9A75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6937FEAF51ED982E7214D0CB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G882XP2TNR;
+				INFOPLIST_FILE = Trakio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vstudio.tracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44134BE51C5F466100B9A75B /* Build configuration list for PBXProject "Trakio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44134C021C5F466100B9A75B /* Debug */,
+				44134C031C5F466100B9A75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44134C041C5F466100B9A75B /* Build configuration list for PBXNativeTarget "Trakio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44134C051C5F466100B9A75B /* Debug */,
+				44134C061C5F466100B9A75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44134BF91C5F466100B9A75B /* Trakio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44134BFA1C5F466100B9A75B /* Trakio.xcdatamodel */,
+			);
+			currentVersion = 44134BFA1C5F466100B9A75B /* Trakio.xcdatamodel */;
+			path = Trakio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44134BE21C5F466100B9A75B /* Project object */;
+}
